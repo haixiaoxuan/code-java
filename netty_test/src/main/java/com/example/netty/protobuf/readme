@@ -1,0 +1,3 @@
+
+# 对.proto文件进行处理生成java类
+protoc --java_out=. Student.proto
