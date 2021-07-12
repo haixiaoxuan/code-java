@@ -7,7 +7,7 @@ import org.bson.Document;
 public class MongoUtil   {
 
     public static MongoClient getConnect(){
-        String mongoURI = "mongodb://root:RzdHMDDrt3WGPunCtCKd@dds-uf675e57473a95041.mongodb.rds.aliyuncs.com:3717,dds-uf675e57473a95042.mongodb.rds.aliyuncs.com:3717/admin?replicaSet=mgset-45211812";
+        String mongoURI = "";
         MongoClientURI uri = new MongoClientURI(mongoURI);
         return new MongoClient(uri);
     }
